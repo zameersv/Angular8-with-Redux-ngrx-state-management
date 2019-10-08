@@ -1,27 +1,19 @@
-# AngularReduxStateManagement
+# Angular-8 with @ngrx8 for state management
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.5.
+This application was completed using Angular8 and Redux (@ngrx 8) library for state management. 
 
-## Development server
+This application is integrated with ngrx dev tools to view/debug the state in the Dev tools of the Browser. But this will be ideally disabled for prod.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Pre-requisities:
 
-## Code scaffolding
+* Node: 12.10.0
+* Angular: 8.2.7
+* Angular CLI: 8.3.5
+* Redux : @ngrx 8   
+* Redux Extension for the browser is required to view/debug the application 
+* Angular Material is used for the UI.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Run the server
+* clone the repository
+* npm install - will instal all the required packages
+* ng serve - will start the development server.

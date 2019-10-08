@@ -1,0 +1,12 @@
+<div style="margin: 10px auto;clear: both;width: 750px">
+    <div style="float: left;width:10%">
+        <button mat-stroked-button color="primary" disabled={{disablePrev}} (click)="previous()">Previous</button>
+    </div>
+    <div  style="float: left;width:80%;text-align: center">
+        <p *ngIf="(totalPages | async)  == 0" >{{(currentPage | async)}} of {{totalPages | async}} </p>
+        <p *ngIf="(totalPages | async) != 0" >{{(currentPage | async)+1}} of {{totalPages | async}} </p>
+    </div>
+    <div style="float: right;width:10%">
+        <button mat-stroked-button color="primary" disabled={{disableNext}} (click)="next()">Next</button>
+    </div>
+</div>

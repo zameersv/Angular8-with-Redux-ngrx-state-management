@@ -1,0 +1,12 @@
+<div style="margin: 10px auto;clear: both;width: 750px">
+    <div style="float: left;width:85%">
+        <mat-form-field style="width: 100%">
+            <mat-icon matPrefix>search</mat-icon>
+            <input matInput type="search" placeholder="search here"  [(ngModel)]="query">
+        </mat-form-field>
+    </div>
+
+    <div style="float: left;margin: 10px;">
+        <button mat-stroked-button color="primary" (click)="search()">Search</button>
+    </div>
+</div>
